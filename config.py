@@ -5,33 +5,33 @@ from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
 class Config(object):
         #Your telegram BOT username(without @) : get it from @BotFather
-        BOT_USERNAME = environ.get("BOT_USERNAME")
+        BOT_USERNAME = environ.get("BOSS_X_Y_bot")
         #Your telegram BOT API token : get it from @BotFather
-        BOT_TOKEN = environ.get("BOT_TOKEN")
+        BOT_TOKEN = environ.get("5976001715:AAGICvr4Ljl1Oq5F_6cSwBNK0xlwX1q0uEs")
         #API_ID of your Telegram Account my.telegram.org/apps
-        API_ID = int(environ.get("API_ID"))
+        API_ID = int(environ.get("22733485"))
         #API_HASH of your Telegram Account my.telegram.org/apps
-        API_HASH = environ.get("API_HASH")
+        API_HASH = environ.get("e6095dc075ad1ef78eb7697ece6d6feb")
         #API_ID of your Telegram Account my.telegram.org/apps
-        API_ID1 = int(environ.get("API_ID1"))
+        API_ID1 = int(environ.get("22733485"))
         #API_HASH of your Telegram Account my.telegram.org/apps
-        API_HASH1 = environ.get("API_HASH1")
+        API_HASH1 = environ.get("e6095dc075ad1ef78eb7697ece6d6feb")
         #Your telegram user id
-        OWNER_ID = environ.get("OWNER_ID")
+        OWNER_ID = environ.get("5899030234")
         #For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'
         LOG_GROUP_ID = environ.get("LOG_GROUP_ID")
         #Get From Here.https://www.mongodb.com/ (Same as MONGO_URL but give differant value for this) 
-        BASE_DB = environ.get("BASE_DB")
+        BASE_DB = environ.get("mongodb+srv://musicbot:musicbot@cluster0.i889qsr.mongodb.net/?retryWrites=true&w=majority")
         #Get From Here.https://www.mongodb.com/
-        MONGO_URL = environ.get("MONGO_URL")
+        MONGO_URL = environ.get("mongodb+srv://musicbot:musicbot@cluster0.i889qsr.mongodb.net/?retryWrites=true&w=majority")
         #Don't change this value:https://arq.hamker.in
-        ARQ_API_URL = environ.get("ARQ_API_URL")
+        ARQ_API_URL = environ.get("ELXIQL-IKSHUA-VZWDEA-YWAASX-ARQ")
         #Get this from @ARQRobot.
-        ARQ_API_KEY = environ.get("ARQ_API_KEY")
+        ARQ_API_KEY = environ.get("ELXIQL-IKSHUA-VZWDEA-YWAASX-ARQ")
         #now you can set custom command handler for rose like : / ! ,
-        COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES")
+        COMMAND_PREFIXES = environ.get("/")
         #The Telegram channel id you want focus user.(User can't start your bot without join it)
-        F_SUB_CHANNEL = environ.get("F_SUB_CHANNEL")
+        F_SUB_CHANNEL = environ.get("DP_Store_SK_X_Y")
 
 class var(object):
         #Rose group start message here 
